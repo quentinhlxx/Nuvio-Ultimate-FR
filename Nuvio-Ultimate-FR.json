@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "ultimate-fr",
+    "title": "Nuvio Ultimate FR",
+    "hideTitle": false,
+    "pinToTop": true,
+    "focusGlowEnabled": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "folders": [
+      {
+        "id": "films-recents",
+        "title": "Films récents",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": false,
+        "focusGifEnabled": true,
+        "focusGlowEnabled": true,
+        "coverImageUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/films-recents.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/films-recents.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/films-recents-fond.jpg",
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Derniers films",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "voteCountGte": 10,
+              "primaryReleaseDateLte": "2026-11-24"
+            }
+          }
+        ]
+      },
+      {
+        "id": "series-recentes",
+        "title": "Séries récentes",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": false,
+        "focusGifEnabled": true,
+        "focusGlowEnabled": true,
+        "coverImageUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/series-recentes.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/series-recentes.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/series-recentes-fond.jpg",
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Dernières séries",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "voteCountGte": 10,
+              "firstAirDateLte": "2026-11-24"
+            }
+          }
+        ]
+      },
+      {
+        "id": "tendances",
+        "title": "Populaires",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": false,
+        "focusGifEnabled": true,
+        "focusGlowEnabled": true,
+        "coverImageUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/tendances.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/tendances.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/tendances-fond.jpg",
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {}
+          }
+        ]
+      },
+      {
+        "id": "incontournables",
+        "title": "Les mieux notés",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": false,
+        "focusGifEnabled": true,
+        "focusGlowEnabled": true,
+        "coverImageUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/incontournables.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/incontournables.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/incontournables-fond.jpg",
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "voteCountGte": 1000
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries",
+            "mediaType": "TV",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "voteCountGte": 500
+            }
+          }
+        ]
+      },
+      {
+        "id": "france",
+        "title": "Films et séries français",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": false,
+        "focusGifEnabled": true,
+        "focusGlowEnabled": true,
+        "coverImageUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/france.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/france.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/france-fond.jpg",
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withOriginalLanguage": "fr"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withOriginalLanguage": "fr"
+            }
+          }
+        ]
+      },
+      {
+        "id": "marvel-chronologie",
+        "title": "Marvel — Ordre chronologique",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": false,
+        "focusGifEnabled": true,
+        "focusGlowEnabled": true,
+        "coverImageUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/marvel-chronologie.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/marvel-chronologie.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/quentinhlxx/Nuvio-Ultimate-FR/main/assets/marvel-chronologie-fond.jpg",
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "aio-metadata",
+            "type": "Movie",
+            "catalogId": "mdblist.197831"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "genres",
+    "title": "Genres",
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": false,
+    "folders": [
+      {
+        "id": "genre-action",
+        "title": "Action",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "28"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populaires",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "10759"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "28",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries les mieux notées",
+            "mediaType": "TV",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "10759",
+              "voteCountGte": 200
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-action.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-action.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-action-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/genres/action.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-action-fond.mp4"
+      },
+      {
+        "id": "genre-comedie",
+        "title": "Comédie",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "35"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populaires",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "35"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "35",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries les mieux notées",
+            "mediaType": "TV",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "35",
+              "voteCountGte": 200
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-comedie.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-comedie.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-comedie-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/genres/comedie.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-comedie-fond.mp4"
+      },
+      {
+        "id": "genre-horreur",
+        "title": "Horreur",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "27"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "27",
+              "voteCountGte": 500
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-horreur.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-horreur.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-horreur-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/genres/horreur.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-horreur-fond.mp4"
+      },
+      {
+        "id": "genre-sf",
+        "title": "Science-fiction",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "878"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populaires",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "10765"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "878",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries les mieux notées",
+            "mediaType": "TV",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "10765",
+              "voteCountGte": 200
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-sf.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-sf.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-sf-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/genres/sf.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-sf-fond.mp4"
+      },
+      {
+        "id": "genre-thriller",
+        "title": "Thriller",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "53"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populaires",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "9648"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "53",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries les mieux notées",
+            "mediaType": "TV",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "9648",
+              "voteCountGte": 200
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-thriller.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-thriller.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-thriller-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/genres/thriller.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-thriller-fond.mp4"
+      },
+      {
+        "id": "genre-policier",
+        "title": "Policier",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "80"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populaires",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "80"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "80",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries les mieux notées",
+            "mediaType": "TV",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "80",
+              "voteCountGte": 200
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-policier.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-policier.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-policier-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/genres/policier.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-policier-fond.mp4"
+      },
+      {
+        "id": "genre-drame",
+        "title": "Drame",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "18"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populaires",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "18"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "18",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries les mieux notées",
+            "mediaType": "TV",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "18",
+              "voteCountGte": 200
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-drame.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-drame.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-drame-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/genres/drame.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-drame-fond.mp4"
+      },
+      {
+        "id": "genre-romance",
+        "title": "Romance",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "10749"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "10749",
+              "voteCountGte": 500
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-romance.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-romance.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-romance-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/genres/romance.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-romance-fond.mp4"
+      },
+      {
+        "id": "genre-fantastique",
+        "title": "Fantastique",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "14"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populaires",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "10765"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "14",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries les mieux notées",
+            "mediaType": "TV",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "10765",
+              "voteCountGte": 200
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-fantastique.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-fantastique.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-fantastique-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/genres/fantastique.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-fantastique-fond.mp4"
+      },
+      {
+        "id": "genre-animation",
+        "title": "Animation",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "16"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populaires",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "16"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "16",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries les mieux notées",
+            "mediaType": "TV",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "16",
+              "voteCountGte": 200
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-animation.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-animation.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-animation-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/genres/animation.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-animation-fond.mp4"
+      },
+      {
+        "id": "genre-animes",
+        "title": "Animés",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "16",
+              "withOriginalLanguage": "ja"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populaires",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "16",
+              "withOriginalLanguage": "ja"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "16",
+              "voteCountGte": 500,
+              "withOriginalLanguage": "ja"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries les mieux notées",
+            "mediaType": "TV",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "16",
+              "voteCountGte": 200,
+              "withOriginalLanguage": "ja"
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-animes.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-animes.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-animes-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/genres/animes.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-animes-fond.mp4"
+      },
+      {
+        "id": "genre-famille",
+        "title": "Famille",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "10751"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populaires",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "10751"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "10751",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries les mieux notées",
+            "mediaType": "TV",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "10751",
+              "voteCountGte": 200
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-famille.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-famille.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-famille-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/genres/famille.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-famille-fond.mp4"
+      },
+      {
+        "id": "genre-guerre",
+        "title": "Guerre & Histoire",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "10752|36"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populaires",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "10768"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "10752|36",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries les mieux notées",
+            "mediaType": "TV",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "10768",
+              "voteCountGte": 200
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-guerre.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-guerre.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-guerre-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/genres/guerre.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-guerre-fond.mp4"
+      },
+      {
+        "id": "genre-documentaire",
+        "title": "Documentaire",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "99"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populaires",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "99"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "99",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries les mieux notées",
+            "mediaType": "TV",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "99",
+              "voteCountGte": 200
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-documentaire.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-documentaire.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-documentaire-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/genres/documentaire.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-documentaire-fond.mp4"
+      },
+      {
+        "id": "genre-western",
+        "title": "Western",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "37"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populaires",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "37"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "37",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries les mieux notées",
+            "mediaType": "TV",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "37",
+              "voteCountGte": 200
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-western.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-western.gif",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-western-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/genres/western.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/genre-western-fond.mp4"
+      }
+    ]
+  },
+  {
+    "id": "envies",
+    "title": "J'ai envie de…",
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": false,
+    "folders": [
+      {
+        "id": "envie-rire",
+        "title": "Rire",
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-rire.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-rire.gif",
+        "focusGifEnabled": true,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-rire-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/moods/rire.png",
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "35",
+              "voteCountGte": 300
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "35",
+              "voteCountGte": 100,
+              "withoutGenres": "10763|10764|10766|10767"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "35",
+              "voteCountGte": 1000
+            }
+          }
+        ],
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-rire-fond.mp4"
+      },
+      {
+        "id": "envie-frissonner",
+        "title": "Frissonner",
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-frissonner.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-frissonner.gif",
+        "focusGifEnabled": true,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-frissonner-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/moods/frissonner.png",
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Horreur",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "27",
+              "voteCountGte": 300
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Thrillers",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "53",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "9648",
+              "voteCountGte": 100,
+              "withoutGenres": "10763|10764|10766|10767"
+            }
+          }
+        ],
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-frissonner-fond.mp4"
+      },
+      {
+        "id": "envie-pleurer",
+        "title": "Pleurer",
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-pleurer.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-pleurer.gif",
+        "focusGifEnabled": true,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-pleurer-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/moods/pleurer.png",
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "18,10749",
+              "voteAverageGte": 7,
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Drames",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "18",
+              "voteCountGte": 2000
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "18",
+              "voteAverageGte": 8,
+              "voteCountGte": 200,
+              "withoutGenres": "10763|10764|10766|10767"
+            }
+          }
+        ],
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-pleurer-fond.mp4"
+      },
+      {
+        "id": "envie-reflechir",
+        "title": "Réfléchir",
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-reflechir.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-reflechir.gif",
+        "focusGifEnabled": true,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-reflechir-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/moods/reflechir.png",
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "878,18",
+              "voteCountGte": 1000
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "99",
+              "voteCountGte": 100
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries",
+            "mediaType": "TV",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "18",
+              "voteCountGte": 1000,
+              "withoutGenres": "10763|10764|10766|10767"
+            }
+          }
+        ],
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-reflechir-fond.mp4"
+      },
+      {
+        "id": "envie-voyager",
+        "title": "Voyager",
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-voyager.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-voyager.gif",
+        "focusGifEnabled": true,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-voyager-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/moods/voyager.png",
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "12",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "10759",
+              "voteCountGte": 200,
+              "withoutGenres": "10763|10764|10766|10767"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Documentaires",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "99",
+              "voteCountGte": 50,
+              "withoutGenres": "10763|10764|10766|10767"
+            }
+          }
+        ],
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-voyager-fond.mp4"
+      },
+      {
+        "id": "envie-rever",
+        "title": "Rêver",
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-rever.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-rever.gif",
+        "focusGifEnabled": true,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-rever-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/moods/rever.png",
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "14",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Animation",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "16",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "10765",
+              "voteCountGte": 200,
+              "withoutGenres": "10763|10764|10766|10767"
+            }
+          }
+        ],
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-rever-fond.mp4"
+      },
+      {
+        "id": "envie-detendre",
+        "title": "Me détendre",
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-detendre.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-detendre.gif",
+        "focusGifEnabled": true,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-detendre-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/moods/detendre.png",
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "35,10751",
+              "voteCountGte": 300
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "35,10751",
+              "voteCountGte": 50,
+              "withoutGenres": "10763|10764|10766|10767"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Dessins animés",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "16,10751",
+              "voteCountGte": 500
+            }
+          }
+        ],
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-detendre-fond.mp4"
+      },
+      {
+        "id": "envie-adrenaline",
+        "title": "De l'adrénaline",
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-adrenaline.jpg",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-adrenaline.gif",
+        "focusGifEnabled": true,
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-adrenaline-fond.jpg",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/moods/adrenaline.png",
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "28",
+              "voteCountGte": 1000
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withGenres": "10759",
+              "voteAverageGte": 7.5,
+              "voteCountGte": 200,
+              "withoutGenres": "10763|10764|10766|10767"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withGenres": "28",
+              "voteCountGte": 3000
+            }
+          }
+        ],
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/tuiles-vivantes/genres/envie-adrenaline-fond.mp4"
+      }
+    ]
+  },
+  {
+    "id": "sagas",
+    "title": "Sagas",
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "ROWS",
+    "showAllTab": false,
+    "folders": [
+      {
+        "id": "sagas-action",
+        "title": "Action et aventure",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Pirates des Caraïbes",
+            "tmdbId": 295,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-645",
+            "genre": "Saga"
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-9485",
+            "genre": "Saga"
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-87359",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "John Wick",
+            "tmdbId": 404609,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Indiana Jones",
+            "tmdbId": 84,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Le Parrain",
+            "tmdbId": 230,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Jason Bourne",
+            "tmdbId": 31562,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-1570",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Jumanji",
+            "tmdbId": 495527,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Kill Bill",
+            "tmdbId": 2883,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Kingsman",
+            "tmdbId": 391860,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-1575",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Ocean's",
+            "tmdbId": 304,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Gladiator",
+            "tmdbId": 1069584,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-102322",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Taken",
+            "tmdbId": 135483,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-14890",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Rambo",
+            "tmdbId": 5039,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "La Momie",
+            "tmdbId": 1733,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Expendables",
+            "tmdbId": 126125,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Top Gun",
+            "tmdbId": 531330,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Equalizer",
+            "tmdbId": 523855,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Creed",
+            "tmdbId": 553717,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "L'Arme Fatale",
+            "tmdbId": 945,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Rush Hour",
+            "tmdbId": 90863,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-9518",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Le Flic de Beverly Hills",
+            "tmdbId": 85861,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Lara Croft",
+            "tmdbId": 2467,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Ip Man",
+            "tmdbId": 70068,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Hyper Tension",
+            "tmdbId": 64751,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-1657",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "The Raid",
+            "tmdbId": 257960,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/action.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/gifs/sagas/action.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/action-fond.jpg?v=1",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/action-fond.mp4?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/sagas/action.png?v=1"
+      },
+      {
+        "id": "sagas-super-heros",
+        "title": "Super-héros",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Avengers",
+            "tmdbId": 86311,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "X-Men",
+            "tmdbId": 748,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-263",
+            "genre": "Saga"
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-131292",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Thor",
+            "tmdbId": 131296,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-131295",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Spider-Man (MCU)",
+            "tmdbId": 531241,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Les Gardiens de la Galaxie",
+            "tmdbId": 284433,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Deadpool",
+            "tmdbId": 448150,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Spider-Man (Sam Raimi)",
+            "tmdbId": 556,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Ant-Man",
+            "tmdbId": 422834,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-558216",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Black Panther",
+            "tmdbId": 529892,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Wonder Woman",
+            "tmdbId": 468552,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Batman (1989-1997)",
+            "tmdbId": 120794,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Spider-Man : New Generation",
+            "tmdbId": 573436,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Blade",
+            "tmdbId": 735,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Hellboy",
+            "tmdbId": 17235,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-8537",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Batman: The Dark Knight Returns",
+            "tmdbId": 248534,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/super-heros.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/gifs/sagas/super-heros.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/super-heros-fond.jpg?v=1",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/super-heros-fond.mp4?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/sagas/super-heros.png?v=1"
+      },
+      {
+        "id": "sagas-sf",
+        "title": "Science-fiction et fantastique",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Jurassic Park",
+            "tmdbId": 328,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-1241",
+            "genre": "Saga"
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-10",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Le Seigneur des anneaux",
+            "tmdbId": 119,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-131635",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Terminator",
+            "tmdbId": 528,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Matrix",
+            "tmdbId": 2344,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-87096",
+            "genre": "Saga"
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-33514",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Le Hobbit",
+            "tmdbId": 121938,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Retour vers le futur",
+            "tmdbId": 264,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Transformers",
+            "tmdbId": 8650,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-8945",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "La Planète des singes",
+            "tmdbId": 173710,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Le Labyrinthe",
+            "tmdbId": 295130,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Men in Black",
+            "tmdbId": 86055,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-435259",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Predator",
+            "tmdbId": 399,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-283579",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Blade Runner",
+            "tmdbId": 422837,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Star Trek",
+            "tmdbId": 115575,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Le Monde de Narnia",
+            "tmdbId": 420,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Dune",
+            "tmdbId": 726871,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "S.O.S. Fantômes",
+            "tmdbId": 2980,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Les Chroniques de Riddick",
+            "tmdbId": 2794,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Tron",
+            "tmdbId": 63043,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Star Trek : les films originaux",
+            "tmdbId": 151,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "La Planète des singes (1968)",
+            "tmdbId": 1709,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/sf.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/gifs/sagas/sf.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/sf-fond.jpg?v=1",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/sf-fond.mp4?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/sagas/sf.png?v=1"
+      },
+      {
+        "id": "sagas-horreur",
+        "title": "Horreur",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Alien",
+            "tmdbId": 8091,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-656",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Conjuring",
+            "tmdbId": 313086,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Scream",
+            "tmdbId": 2602,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-477962",
+            "genre": "Saga"
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-17255",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Halloween",
+            "tmdbId": 91361,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "American Nightmare",
+            "tmdbId": 256322,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-8864",
+            "genre": "Saga"
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-2326",
+            "genre": "Saga"
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-228446",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Vendredi 13",
+            "tmdbId": 9735,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-2366",
+            "genre": "Saga"
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-41437",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Freddy Krueger",
+            "tmdbId": 8581,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Annabelle",
+            "tmdbId": 402074,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-10455",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Evil Dead",
+            "tmdbId": 1960,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Massacre à la Tronçonneuse",
+            "tmdbId": 111751,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Sinister",
+            "tmdbId": 357173,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Alien vs. Predator",
+            "tmdbId": 115762,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Smile",
+            "tmdbId": 1100788,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Five Nights at Freddy's",
+            "tmdbId": 1240438,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-425175",
+            "genre": "Saga"
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/horreur.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/gifs/sagas/horreur.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/horreur-fond.jpg?v=1",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/horreur-fond.mp4?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/sagas/horreur.png?v=1"
+      },
+      {
+        "id": "sagas-animation",
+        "title": "Animation et famille",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Toy Story",
+            "tmdbId": 10194,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Shrek",
+            "tmdbId": 2150,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-8354",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Moi, moche et méchant",
+            "tmdbId": 86066,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Le Monde de Nemo",
+            "tmdbId": 137697,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Les Indestructibles",
+            "tmdbId": 468222,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Monstres & Cie",
+            "tmdbId": 137696,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Kung Fu Panda",
+            "tmdbId": 77816,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Vice-Versa",
+            "tmdbId": 1022790,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-87118",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "La Reine des neiges",
+            "tmdbId": 386382,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-94032",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Madagascar",
+            "tmdbId": 14740,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "La Nuit au musée",
+            "tmdbId": 85943,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Hôtel Transylvanie",
+            "tmdbId": 185103,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-720879",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Les Minions",
+            "tmdbId": 544669,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-94602",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Le Roi Lion (2019)",
+            "tmdbId": 762512,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Rio",
+            "tmdbId": 229932,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Paddington",
+            "tmdbId": 488924,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Les Trolls",
+            "tmdbId": 489724,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-134897",
+            "genre": "Saga"
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/animation.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/gifs/sagas/animation.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/animation-fond.jpg?v=1",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/animation-fond.mp4?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/sagas/animation.png?v=1"
+      },
+      {
+        "id": "sagas-comedie",
+        "title": "Comédie et romance",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Cinquante Nuances",
+            "tmdbId": 344830,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-86119",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Maman, j'ai raté l'avion !",
+            "tmdbId": 9888,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-4246",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "American Pie",
+            "tmdbId": 2806,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "After",
+            "tmdbId": 702624,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Pitch Perfect",
+            "tmdbId": 306031,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Bridget Jones",
+            "tmdbId": 8936,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Mamma Mia!",
+            "tmdbId": 458558,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-298820",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "La Revanche d'une blonde",
+            "tmdbId": 86024,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/comedie.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/gifs/sagas/comedie.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/comedie-fond.jpg?v=1",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/comedie-fond.mp4?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/sagas/comedie.png?v=1"
+      },
+      {
+        "id": "sagas-francais",
+        "title": "Cinéma français",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Taxi",
+            "tmdbId": 211721,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-2396",
+            "genre": "Saga"
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-85817",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Qu'est-ce qu'on a fait au Bon Dieu ?",
+            "tmdbId": 579870,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "OSS 117",
+            "tmdbId": 1413999,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Le Gendarme",
+            "tmdbId": 10517,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Les Visiteurs",
+            "tmdbId": 52888,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Les Tuche",
+            "tmdbId": 389544,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Babysitting",
+            "tmdbId": 331841,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Les Bronzés",
+            "tmdbId": 52835,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Les Petits Mouchoirs",
+            "tmdbId": 629597,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-913258",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Les Profs",
+            "tmdbId": 377491,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-52097",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Fantômas",
+            "tmdbId": 103001,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Mesrine",
+            "tmdbId": 85945,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-442352",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Le Petit Nicolas",
+            "tmdbId": 303872,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "La Vérité si je mens !",
+            "tmdbId": 115840,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-579012",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Belle et Sébastien",
+            "tmdbId": 455123,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Kaamelott",
+            "tmdbId": 1076903,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Le Grand Blond",
+            "tmdbId": 105764,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/francais.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/gifs/sagas/francais.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/francais-fond.jpg?v=1",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/francais-fond.mp4?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/sagas/francais.png?v=1"
+      },
+      {
+        "id": "sagas-animes",
+        "title": "Animés",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Demon Slayer : Kimetsu no Yaiba",
+            "tmdbId": 925155,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-23616",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Dragon Ball Super",
+            "tmdbId": 620873,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-23456",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Ghost in the Shell",
+            "tmdbId": 23026,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-39199",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Resident Evil: Animation",
+            "tmdbId": 133352,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-34055",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Evangelion (Rebuild)",
+            "tmdbId": 210303,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "My Hero Academia",
+            "tmdbId": 1189668,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-96850",
+            "genre": "Saga"
+          },
+          {
+            "provider": "addon",
+            "addonId": "com.xnzx07.catalogue-fr",
+            "type": "movie",
+            "catalogId": "saga-386410",
+            "genre": "Saga"
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "COLLECTION",
+            "title": "Ghost in the Shell Arise",
+            "tmdbId": 196753,
+            "mediaType": "MOVIE",
+            "sortBy": "original",
+            "filters": {}
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/animes.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/gifs/sagas/animes.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/animes-fond.jpg?v=1",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/sagas/animes-fond.mp4?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/titles/sagas/animes.png?v=1"
+      }
+    ]
+  },
+  {
+    "id": "studios",
+    "title": "Studios",
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": false,
+    "folders": [
+      {
+        "id": "studio-33",
+        "title": "Universal",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withCompanies": "33"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Nouveautés",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withCompanies": "33",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withCompanies": "33",
+              "voteCountGte": 300
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-33.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-33.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-33-fond.jpg?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/logos/studio-33.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-33-fond.mp4?v=1"
+      },
+      {
+        "id": "marvel-studios",
+        "title": "Marvel Studios",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withCompanies": "420"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populaires",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withCompanies": "420"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Nouveaux films",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withCompanies": "420",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Nouvelles séries",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "withCompanies": "420",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withCompanies": "420",
+              "voteCountGte": 500
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries les mieux notées",
+            "mediaType": "TV",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withCompanies": "420",
+              "voteCountGte": 200
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/marvel-studios.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/marvel-studios.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/marvel-studios-fond.jpg?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/logos/marvel-studios.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/marvel-studios-fond.mp4?v=1"
+      },
+      {
+        "id": "warner-bros",
+        "title": "Warner Bros",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withCompanies": "174"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Nouveaux films",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withCompanies": "174",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withCompanies": "174",
+              "voteCountGte": 500
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/warner-bros.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/warner-bros.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/warner-bros-fond.jpg?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/logos/warner-bros.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/warner-bros-fond.mp4?v=1"
+      },
+      {
+        "id": "dc-comics",
+        "title": "DC Comics",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withCompanies": "429|128064"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries populaires",
+            "mediaType": "TV",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withCompanies": "429|128064"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Nouveaux films",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "voteCountGte": 10,
+              "withCompanies": "429|128064"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Nouvelles séries",
+            "mediaType": "TV",
+            "sortBy": "first_air_date.desc",
+            "filters": {
+              "voteCountGte": 10,
+              "withCompanies": "429|128064"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Films les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "voteCountGte": 500,
+              "withCompanies": "429|128064"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Séries les mieux notées",
+            "mediaType": "TV",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "voteCountGte": 200,
+              "withCompanies": "429|128064"
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/dc-comics.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/dc-comics.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/dc-comics-fond.jpg?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/logos/dc-comics.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/dc-comics-fond.mp4?v=1"
+      },
+      {
+        "id": "studio-1",
+        "title": "Lucasfilm",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withCompanies": "1"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Nouveautés",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withCompanies": "1",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withCompanies": "1",
+              "voteCountGte": 300
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-1.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-1.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-1-fond.jpg?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/logos/studio-1.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-1-fond.mp4?v=1"
+      },
+      {
+        "id": "studio-41077",
+        "title": "A24",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withCompanies": "41077"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Nouveautés",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withCompanies": "41077",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withCompanies": "41077",
+              "voteCountGte": 300
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-41077.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-41077.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-41077-fond.jpg?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/logos/studio-41077.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-41077-fond.mp4?v=1"
+      },
+      {
+        "id": "studio-3172",
+        "title": "Blumhouse",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withCompanies": "3172"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Nouveautés",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withCompanies": "3172",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withCompanies": "3172",
+              "voteCountGte": 300
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-3172.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-3172.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-3172-fond.jpg?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/logos/studio-3172.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-3172-fond.mp4?v=1"
+      },
+      {
+        "id": "studio-3",
+        "title": "Pixar",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withCompanies": "3"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Nouveautés",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withCompanies": "3",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withCompanies": "3",
+              "voteCountGte": 300
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-3.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-3.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-3-fond.jpg?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/logos/studio-3.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-3-fond.mp4?v=1"
+      },
+      {
+        "id": "studio-6125",
+        "title": "Disney Animation",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withCompanies": "6125"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Nouveautés",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withCompanies": "6125",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withCompanies": "6125",
+              "voteCountGte": 300
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-6125.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-6125.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-6125-fond.jpg?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/logos/studio-6125.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-6125-fond.mp4?v=1"
+      },
+      {
+        "id": "studio-521",
+        "title": "DreamWorks Animation",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withCompanies": "521"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Nouveautés",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withCompanies": "521",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withCompanies": "521",
+              "voteCountGte": 300
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-521.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-521.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-521-fond.jpg?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/logos/studio-521.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-521-fond.mp4?v=1"
+      },
+      {
+        "id": "studio-6704",
+        "title": "Illumination",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withCompanies": "6704"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Nouveautés",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withCompanies": "6704",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withCompanies": "6704",
+              "voteCountGte": 300
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-6704.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-6704.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-6704-fond.jpg?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/logos/studio-6704.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-6704-fond.mp4?v=1"
+      },
+      {
+        "id": "studio-10342",
+        "title": "Studio Ghibli",
+        "tileShape": "LANDSCAPE",
+        "hideTitle": true,
+        "focusGifEnabled": true,
+        "sources": [
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Populaires",
+            "mediaType": "MOVIE",
+            "sortBy": "popularity.desc",
+            "filters": {
+              "withCompanies": "10342"
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Nouveautés",
+            "mediaType": "MOVIE",
+            "sortBy": "primary_release_date.desc",
+            "filters": {
+              "withCompanies": "10342",
+              "voteCountGte": 10
+            }
+          },
+          {
+            "provider": "tmdb",
+            "tmdbSourceType": "DISCOVER",
+            "title": "Les mieux notés",
+            "mediaType": "MOVIE",
+            "sortBy": "vote_average.desc",
+            "filters": {
+              "withCompanies": "10342",
+              "voteCountGte": 300
+            }
+          }
+        ],
+        "coverImageUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-10342.jpg?v=1",
+        "focusGifUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-10342.gif?v=1",
+        "heroBackdropUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-10342-fond.jpg?v=1",
+        "titleLogoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/logos/studio-10342.png",
+        "heroVideoUrl": "https://raw.githubusercontent.com/xnzx07/nuvio-assets/main/studios/studio-10342-fond.mp4?v=1"
+      }
+    ]
+  }
+]
